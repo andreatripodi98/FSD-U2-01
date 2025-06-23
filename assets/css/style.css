@@ -226,7 +226,21 @@ footer a {
       float: right;
       vertical-align: middle;
     }
+    table {
+      margin: 0 auto;
+      width: 80%;
+    }
    iframe {
-    display: block;
+     float: left;
+  width: 50%;
+   }
+   section {
+    float:right;
+    width: 50%;
+   }
+   aside > div {
+    display: inline-block;
+   vertical-align: top;
+   width: 33%;
    }
 }
