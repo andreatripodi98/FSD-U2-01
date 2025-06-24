@@ -206,41 +206,37 @@ footer a {
 }
 @media screen and (min-width: 1200px) {
   header div img {
-    
-    
   }
-  header p, header div img {
+  header {
+    padding: 20px;
+    text-align: left;
+  }
+  header p,
+  header div img {
     display: inline-block;
     vertical-align: middle;
     text-align: left;
-
-  
   }
-  header {
-      padding: 20px;
-      text-align: left;
-      
-    }
-    header li {
-      display: inline-block;
-      float: right;
-      vertical-align: middle;
-    }
-    table {
-      margin: 0 auto;
-      width: 80%;
-    }
-   iframe {
-     float: left;
-  width: 50%;
-   }
-   section {
-    float:right;
-    width: 50%;
-   }
-   aside > div {
+  header li {
     display: inline-block;
-   vertical-align: top;
-   width: 33%;
-   }
+    float: right;
+    vertical-align: middle;
+  }
+  table {
+    margin: 0 auto;
+    width: 80%;
+  }
+  iframe {
+    float: left;
+    width: 50%;
+  }
+  section {
+    float: right;
+    width: 50%;
+  }
+  aside > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+  }
 }
